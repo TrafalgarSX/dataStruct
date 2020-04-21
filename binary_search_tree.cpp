@@ -152,8 +152,12 @@ int main(){
     create_BST(root,array,arraySize);
     inOrder(root);
     preOrder(root);
+<<<<<<< HEAD
     //cout<<leafNodeNum(root);
     treeNode* temp=minValue(root);
     cout<<temp->elem;
+=======
+    cout<<leafNodeNum(root);
+>>>>>>> c35e5c710ac0878f01a8e4f9c56e12f8644be977
     return 0;
 }
